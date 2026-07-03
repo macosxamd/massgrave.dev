@@ -292,7 +292,6 @@ table {
 
 .markdown code {
   border: 1px solid rgba(164, 59, 141, 0.16);
-  border-radius: 8px;
   color: var(--ifm-color-primary-darkest);
 }
 
