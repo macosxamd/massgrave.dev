@@ -2,6 +2,24 @@
 
 ------------------------------------------------------------------------
 
+## 3.12
+**8 Years of MAS**
+
+#### TSforge
+- Now defaults to KMS4k for the Windows-only option instead of StaticCID as it's better for most users.
+    - KMS4k persists through hardware changes and does not require an internet connection to work, unlike StaticCID. 
+    - See [this page](https://massgrave.dev/chart) for more details on the differences between TSforge methods.
+
+#### HWID
+- Changed the Installation ID used by HWID.
+
+#### All
+- Hardened the script against certain types of vulnerabilities.
+- Removed the functionality for using user-provided DLLs instead of the ones included with the script.
+- Made some error messages clearer.
+
+------------------------------------------------------------------------
+
 ## 3.11
 **Minor Update**
 

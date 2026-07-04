@@ -194,7 +194,7 @@ $Pfn = (Get-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\ProductOp
 # Example: Uncommenting the line below will create a ticket for Windows 10/11 Pro.
 # $Pfn = "Microsoft.Windows.48.X19-98841_8wekyb3d8bbwe"
 
-$SessionIdStr = "OSMajorVersion=5;OSMinorVersion=1;OSPlatformId=2;PP=0;Pfn=$Pfn;PKeyIID=465145217131314304264339481117862266242033457260311819664735280;"
+$SessionIdStr = "OSMajorVersion=5;OSMinorVersion=1;OSPlatformId=2;PP=0;Pfn=$Pfn;PKeyIID=221306452340115677963964261259250411589493550039199940431586886;"
 $SessionId = [Convert]::ToBase64String([Text.Encoding]::Unicode.GetBytes($SessionIdStr + [char]0))
 $PropertiesStr = "OA3xOriginalProductId=;OA3xOriginalProductKey=;SessionId=$SessionId;TimeStampClient=2022-10-11T12:00:00Z"
 $SignatureStr = SignProperties $PropertiesStr $rsa

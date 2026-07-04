@@ -1,5 +1,8 @@
 # News
 
+### [4-Jul-26] MAS 3.12 is released
+See the changelog [here](changelog.md).
+
 ### [2-May-26] MAS 3.11 is released
 See the changelog [here](changelog.md).
 
