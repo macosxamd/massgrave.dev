@@ -111,7 +111,7 @@ Latest Release: v3.12 (4-Jul-2026)
 |:----------------|:-----------------------|:-------------------------------------|:--------------------|
 | HWID            | Windows 10-11          | Permanent                            | Yes                 |
 | Ohook           | Office                 | Permanent                            | No                  |
-| TSforge         | Windows / ESU / Office | Permanent                            | Yes, needed on build 26100 and later |
+| TSforge         | Windows / ESU / Office | Permanent                            | Only needed for StaticCID method (used on build 26100 and above) |
 | Online KMS      | Windows / Office       | 180 Days (Lifetime with renewal task) | Yes                 |
 
 For more details, see the respective pages in the documentation and the [comparison chart](chart.md).  
